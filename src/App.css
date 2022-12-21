@@ -1,0 +1,144 @@
+#root {
+  text-align: center;
+}
+
+@keyframes spinclock {
+  0% {background: conic-gradient(from 0deg at center, #000000, transparent);}
+  1% {background: conic-gradient(from 4deg at center, #000000, transparent);}
+  2% {background: conic-gradient(from 7deg at center, #000000, transparent);}
+  3% {background: conic-gradient(from 11deg at center, #000000, transparent);}
+  4% {background: conic-gradient(from 14deg at center, #000000, transparent);}
+  5% {background: conic-gradient(from 18deg at center, #000000, transparent);}
+  6% {background: conic-gradient(from 21deg at center, #000000, transparent);}
+  7% {background: conic-gradient(from 25deg at center, #000000, transparent);}
+  8% {background: conic-gradient(from 28deg at center, #000000, transparent);}
+  9% {background: conic-gradient(from 32deg at center, #000000, transparent);}
+  10% {background: conic-gradient(from 36deg at center, #000000, transparent);}
+  11% {background: conic-gradient(from 39deg at center, #000000, transparent);}
+  12% {background: conic-gradient(from 43deg at center, #000000, transparent);}
+  13% {background: conic-gradient(from 46deg at center, #000000, transparent);}
+  14% {background: conic-gradient(from 50deg at center, #000000, transparent);}
+  15% {background: conic-gradient(from 54deg at center, #000000, transparent);}
+  16% {background: conic-gradient(from 60deg at center, #000000, transparent);}
+  17% {background: conic-gradient(from 63deg at center, #000000, transparent);}
+  18% {background: conic-gradient(from 66deg at center, #000000, transparent);}
+  19% {background: conic-gradient(from 69deg at center, #000000, transparent);}
+  20% {background: conic-gradient(from 72deg at center, #000000, transparent);}
+  21% {background: conic-gradient(from 75deg at center, #000000, transparent);}
+  22% {background: conic-gradient(from 79deg at center, #000000, transparent);}
+  23% {background: conic-gradient(from 82deg at center, #000000, transparent);}
+  24% {background: conic-gradient(from 86deg at center, #000000, transparent);}
+  25% {background: conic-gradient(from 90deg at center, #000000, transparent);}
+  26% {background: conic-gradient(from 93deg at center, #000000, transparent);}
+  27% {background: conic-gradient(from 97deg at center, #000000, transparent);}
+  28% {background: conic-gradient(from 100deg at center, #000000, transparent);}
+  29% {background: conic-gradient(from 104deg at center, #000000, transparent);}
+  30% {background: conic-gradient(from 108deg at center, #000000, transparent);}
+  31% {background: conic-gradient(from 111deg at center, #000000, transparent);}
+  32% {background: conic-gradient(from 115deg at center, #000000, transparent);}
+  33% {background: conic-gradient(from 118deg at center, #000000, transparent);}
+  34% {background: conic-gradient(from 124deg at center, #000000, transparent);}
+  35% {background: conic-gradient(from 126deg at center, #000000, transparent);}
+  36% {background: conic-gradient(from 129deg at center, #000000, transparent);}
+  37% {background: conic-gradient(from 133deg at center, #000000, transparent);}
+  38% {background: conic-gradient(from 136deg at center, #000000, transparent);}
+  39% {background: conic-gradient(from 140deg at center, #000000, transparent);}
+  40% {background: conic-gradient(from 144deg at center, #000000, transparent);}
+  41% {background: conic-gradient(from 147deg at center, #000000, transparent);}
+  42% {background: conic-gradient(from 151deg at center, #000000, transparent);}
+  43% {background: conic-gradient(from 154deg at center, #000000, transparent);}
+  44% {background: conic-gradient(from 159deg at center, #000000, transparent);}
+  45% {background: conic-gradient(from 162deg at center, #000000, transparent);}
+  46% {background: conic-gradient(from 165deg at center, #000000, transparent);}
+  47% {background: conic-gradient(from 169deg at center, #000000, transparent);}
+  48% {background: conic-gradient(from 172deg at center, #000000, transparent);}
+  49% {background: conic-gradient(from 176deg at center, #000000, transparent);}
+  50% {background: conic-gradient(from 180deg at center, #000000, transparent);}
+  51% {background: conic-gradient(from 183deg at center, #000000, transparent);}
+  52% {background: conic-gradient(from 187deg at center, #000000, transparent);}
+  53% {background: conic-gradient(from 190deg at center, #000000, transparent);}
+  54% {background: conic-gradient(from 194deg at center, #000000, transparent);}
+  55% {background: conic-gradient(from 198deg at center, #000000, transparent);}
+  56% {background: conic-gradient(from 201deg at center, #000000, transparent);}
+  57% {background: conic-gradient(from 205deg at center, #000000, transparent);}
+  58% {background: conic-gradient(from 208deg at center, #000000, transparent);}
+  59% {background: conic-gradient(from 212deg at center, #000000, transparent);}
+  60% {background: conic-gradient(from 216deg at center, #000000, transparent);}
+  61% {background: conic-gradient(from 219deg at center, #000000, transparent);}
+  62% {background: conic-gradient(from 223deg at center, #000000, transparent);}
+  63% {background: conic-gradient(from 226deg at center, #000000, transparent);}
+  64% {background: conic-gradient(from 230deg at center, #000000, transparent);}
+  65% {background: conic-gradient(from 234deg at center, #000000, transparent);}
+  66% {background: conic-gradient(from 237deg at center, #000000, transparent);}
+  67% {background: conic-gradient(from 241deg at center, #000000, transparent);}
+  68% {background: conic-gradient(from 244deg at center, #000000, transparent);}
+  69% {background: conic-gradient(from 248deg at center, #000000, transparent);}
+  70% {background: conic-gradient(from 252deg at center, #000000, transparent);}
+  71% {background: conic-gradient(from 255deg at center, #000000, transparent);}
+  72% {background: conic-gradient(from 259deg at center, #000000, transparent);}
+  73% {background: conic-gradient(from 262deg at center, #000000, transparent);}
+  74% {background: conic-gradient(from 264deg at center, #000000, transparent);}
+  75% {background: conic-gradient(from 270deg at center, #000000, transparent);}
+  76% {background: conic-gradient(from 273deg at center, #000000, transparent);}
+  77% {background: conic-gradient(from 277deg at center, #000000, transparent);}
+  78% {background: conic-gradient(from 280deg at center, #000000, transparent);}
+  79% {background: conic-gradient(from 284deg at center, #000000, transparent);}
+  80% {background: conic-gradient(from 288deg at center, #000000, transparent);}
+  81% {background: conic-gradient(from 291deg at center, #000000, transparent);}
+  82% {background: conic-gradient(from 295deg at center, #000000, transparent);}
+  83% {background: conic-gradient(from 298deg at center, #000000, transparent);}
+  84% {background: conic-gradient(from 302deg at center, #000000, transparent);}
+  85% {background: conic-gradient(from 306deg at center, #000000, transparent);}
+  86% {background: conic-gradient(from 309deg at center, #000000, transparent);}
+  87% {background: conic-gradient(from 313deg at center, #000000, transparent);}
+  88% {background: conic-gradient(from 316deg at center, #000000, transparent);}
+  89% {background: conic-gradient(from 320deg at center, #000000, transparent);}
+  90% {background: conic-gradient(from 324deg at center, #000000, transparent);}
+  91% {background: conic-gradient(from 327deg at center, #000000, transparent);}
+  92% {background: conic-gradient(from 331deg at center, #000000, transparent);}
+  93% {background: conic-gradient(from 334deg at center, #000000, transparent);}
+  94% {background: conic-gradient(from 338deg at center, #000000, transparent);}
+  95% {background: conic-gradient(from 342deg at center, #000000, transparent);}
+  96% {background: conic-gradient(from 345deg at center, #000000, transparent);}
+  97% {background: conic-gradient(from 349deg at center, #000000, transparent);}
+  98% {background: conic-gradient(from 352deg at center, #000000, transparent);}
+  99% {background: conic-gradient(from 356deg at center, #000000, transparent);}
+  100% {background: conic-gradient(from 360deg at center, #000000, transparent);}
+}
+
+.texts {
+  position: absolute;
+  top: 40%;
+  left: 30px;
+  font-size: 50px;
+  line-height: 50px;
+  max-width: 40vw;
+  animation: text-change 10s ease infinite;
+}
+
+@keyframes text-change {
+  40% {color: #ffffff}
+  20% {color: #cccccc;}
+  0% {color: #808080;}
+  100% {color: #454545;}
+  80% {color: #0a0a0a;}
+  60% {color: #ffffff;}
+}
+
+.App {
+  background: conic-gradient(from 360deg at center, #000000, transparent);
+  height: 100vh;
+  width: 100vw;
+  animation: spinclock 10s ease infinite;
+}
+
+/* .shadow {
+  background: conic-gradient(from 360deg at center, #000000, #FFFFFF);
+  height: 100vh;
+  width: 100vw;
+  padding: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spinclock 5s linear infinite;
+} */
